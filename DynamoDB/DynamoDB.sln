@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamoDB.Web", "DynamoDB.Web\DynamoDB.Web.csproj", "{E5CE3284-41F8-4BE7-B7D9-AB2DFF00C748}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamoDB.Application", "DynamoDB.Application\DynamoDB.Application.csproj", "{4218702E-198A-4F46-96BA-B05E3B358E55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamoDB.Infrastructure", "DynamoDB.Infrastructure\DynamoDB.Infrastructure.csproj", "{AF28151A-4082-4986-91FA-961B4BB16A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDB.Domain", "DynamoDB.Domain\DynamoDB.Domain.csproj", "{093C7F13-D025-4B02-9568-D9D1DFD0C43B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5CE3284-41F8-4BE7-B7D9-AB2DFF00C748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CE3284-41F8-4BE7-B7D9-AB2DFF00C748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CE3284-41F8-4BE7-B7D9-AB2DFF00C748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CE3284-41F8-4BE7-B7D9-AB2DFF00C748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4218702E-198A-4F46-96BA-B05E3B358E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4218702E-198A-4F46-96BA-B05E3B358E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4218702E-198A-4F46-96BA-B05E3B358E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4218702E-198A-4F46-96BA-B05E3B358E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF28151A-4082-4986-91FA-961B4BB16A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF28151A-4082-4986-91FA-961B4BB16A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF28151A-4082-4986-91FA-961B4BB16A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF28151A-4082-4986-91FA-961B4BB16A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093C7F13-D025-4B02-9568-D9D1DFD0C43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093C7F13-D025-4B02-9568-D9D1DFD0C43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093C7F13-D025-4B02-9568-D9D1DFD0C43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093C7F13-D025-4B02-9568-D9D1DFD0C43B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22C96B67-A020-495F-AD00-0D97C4C63956}
+	EndGlobalSection
+EndGlobal

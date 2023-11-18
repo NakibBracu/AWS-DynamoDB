@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "ErrorPage";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>The Item you are trying to search is not exist in the Table</h1>
+
+            <!-- Add a button to redirect to the "UpdateRowForm" action using tag helper -->
+            <a asp-controller="Dynamo" asp-action="UpdateRowForm" class="btn btn-warning">Go to Update Form</a>
+        </div>
+    </div>
+</div>
+
